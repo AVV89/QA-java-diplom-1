@@ -1,3 +1,4 @@
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -64,7 +65,6 @@ public class BurgerTest {
                 {"Potato bun", 100, "pterodactyls", 1200, "FILLING", "sausage", 0, "FILLING", "tomato sauce", -100, "SAUCE", 1300},
         };
     }
-
 
     @Before
     public void setUp(){
@@ -191,7 +191,6 @@ public class BurgerTest {
         assertEquals(List.of(mockIngredient2,mockIngredient1,mockIngredient3), burger.ingredients);
     }
 
-
     @Test
     public void getPriceMockTest()
     {
@@ -226,7 +225,6 @@ public class BurgerTest {
                 mockBun.getName(),
                 burger.getPrice()
         );
-
         assertEquals(expectedReceipt, burger.getReceipt());
     }
 

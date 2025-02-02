@@ -1,3 +1,4 @@
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -45,7 +46,6 @@ public class IngredientTest {
         MockitoAnnotations.initMocks(this);
         when(mockType.toString()).thenReturn(mockTypeName);
     }
-
 
     @Test
     public void getIngredientTypeTest() {
